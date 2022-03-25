@@ -3,16 +3,32 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import Product from "./components/Product/Product";
 import Cart from "./components/Cart/Cart";
+import Modal from "react-modal";
+
+const customStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+  },
+};
+
+Modal.setAppElement("#root");
 
 function App() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
-  const [singleItem, setSingleItem] = useState([])
+  const [singleItem, setSingleItem] = useState([]);
+  const [modalIsOpen, setIsOpen] = useState(false);
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
+
   const addToCart = (product) => {
     if (cart.length === 4) {
       return;
@@ -20,14 +36,30 @@ function App() {
     const newCart = [...cart, product];
     setCart(newCart);
   };
+
+  // Cart EventHandlers
   const chooseSingleItem = () => {
-    const random = Math.floor(Math.random() * 4);
-    setSingleItem(cart[random]);
+    if (cart.length > 0) {
+      const length = cart.length;
+      const random = Math.floor(Math.random() * length);
+      setSingleItem(cart[random]);
+      if (singleItem) {
+        openModal();
+      }
+    }
   };
   const chooseAgain = () => {
     setCart([]);
   };
-console.log(singleItem);
+
+  // Modal EventHandlers
+  const openModal = () => {
+    setIsOpen(true);
+  };
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div>
       <h1 className="title">Lucky Watch Shop</h1>
@@ -47,6 +79,19 @@ console.log(singleItem);
           chooseSingleItem={chooseSingleItem}
         ></Cart>
       </div>
+      {/* <button onClick={openModal}>Open Modal</button> */}
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+        <button onClick={closeModal}>close</button>
+
+        <img src={singleItem.image} alt="" />
+        <h2>{singleItem.brand}</h2>
+        <p>{singleItem.price}</p>
+      </Modal>
     </div>
   );
 }

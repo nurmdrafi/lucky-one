@@ -3,7 +3,6 @@ import Item from "../../Item/Item";
 import "./Cart.css";
 
 const Cart = ({ data, chooseAgain, chooseSingleItem }) => {
-    console.log(data);
   return (
     <div className="cart">
       <h2>Selected Items</h2>
