@@ -3,6 +3,7 @@
       "id": 1,
       "brand": "Apple ",
       "name": "Watch Edition Series 7",
+      "price": "1500",
       "slug": "apple_watch_edition_series_7-11147",
       "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-series-7-titanium.jpg"
     },
@@ -42,6 +43,7 @@
       "id": 6,
       "brand": "Apple ",
       "name": "Watch Series 6",
+      "price": "777",
       "slug": "apple_watch_series_6-10448",
       "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-s6-steel.jpg"
     },
@@ -161,6 +163,7 @@
       "id": 21,
       "brand": "Samsung ",
       "name": "Galaxy Watch4 Classic",
+      "price": "1100",
       "slug": "samsung_galaxy_watch4_classic-11046",
       "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch4-classic.jpg"
     },
