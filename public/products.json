@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "brand": "Apple ",
+      "name": "Watch Edition Series 7",
+      "slug": "apple_watch_edition_series_7-11147",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-series-7-titanium.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Apple ",
+      "name": "Watch Series 7 Aluminum",
+      "price": "540",
+      "slug": "apple_watch_series_7_aluminum-11107",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-series-7-aluminum.jpg"
+    },
+    { 
+      "id": 3,
+      "brand": "Apple ",
+      "name": "Watch Series 7",
+      "price": "900",
+      "slug": "apple_watch_series_7-11146",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-series-7-stainless-steel.jpg"
+    },
+    { 
+      "id": 4,
+      "brand": "Apple ",
+      "name": "Watch SE",
+      "price": "750",
+      "slug": "apple_watch_se-10446",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-se.jpg"
+    },
+    { 
+      "id": 5,
+      "brand": "Apple ",
+      "name": "Watch Series 6 Aluminum",
+      "price": "940",
+      "slug": "apple_watch_series_6_aluminum-10447",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-s6.jpg"
+    },
+    {
+      "id": 6,
+      "brand": "Apple ",
+      "name": "Watch Series 6",
+      "slug": "apple_watch_series_6-10448",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-s6-steel.jpg"
+    },
+    { 
+      "id": 7,
+      "brand": "Apple ",
+      "name": "Watch Edition Series 6",
+      "price": "650",
+      "slug": "apple_watch_edition_series_6-10449",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-s6-titanium.jpg"
+    },
+    {
+      "id": 8,
+      "brand": "Apple ",
+      "name": "Watch Edition Series 5",
+      "price": "1200",
+      "slug": "apple_watch_edition_series_5-9860",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-edition-series-5.jpg"
+    },
+    { 
+      "id": 9,
+      "brand": "Apple ",
+      "name": "Watch Series 5",
+      "price": "440",
+      "slug": "apple_watch_series_5-9859",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-series-5.jpg"
+    },
+    { 
+      "id": 10,
+      "brand": "Apple ",
+      "name": "Watch Series 5 Aluminum",
+      "price": "550",
+      "slug": "apple_watch_series_5_aluminum-9858",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-aluminum-series-5.jpg"
+    },
+    {
+      "id": 11,
+      "brand": "Apple ",
+      "name": "Watch Series 4",
+      "price": "1300",
+      "slug": "apple_watch_series_4-9321",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-series-4-steel.jpg"
+    },
+    {
+      "id": 12,
+      "brand": "Apple ",
+      "name": "Watch Series 4 Aluminum",
+      "price": "999",
+      "slug": "apple_watch_series_4_aluminum-9322",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-series-4-aluminum.jpg"
+    },
+    { 
+      "id": 13,
+      "brand": "Huawei ",
+      "name": "Watch GT 3",
+      "price": "930",
+      "slug": "huawei_watch_gt_3-11171",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-watch-gt3-new.jpg"
+    },
+    {
+      "id": 14,
+      "brand": "Huawei ",
+      "name": "Watch Fit mini",
+      "price": "1999",
+      "slug": "huawei_watch_fit_mini-11176",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-watch-fit-mini.jpg"
+    },
+    {
+      "id": 15,
+      "brand": "Huawei ",
+      "name": "Watch GT Runner",
+      "price": "1200",
+      "slug": "huawei_watch_gt_runner-11227",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-gt-runner.jpg"
+    },
+    { 
+      "id": 16,
+      "brand": "Huawei ",
+      "name": "Watch 3 Pro",
+      "price": "1000",
+      "slug": "huawei_watch_3_pro-10941",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-watch-3-pro.jpg"
+    },
+    {
+      "id": 17,
+      "brand": "Huawei ",
+      "name": "Watch 3",
+      "price": "880",
+      "slug": "huawei_watch_3-10940",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-watch-3.jpg"
+    },
+    {
+      "id": 18,
+      "brand": "Huawei ",
+      "name": "Watch Fit Elegant",
+      "price": "990",
+      "slug": "huawei_watch_fit_elegant-10794",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-watch-fit-elegant.jpg"
+    },
+    {
+      "id": 19,
+      "brand": "Huawei ",
+      "name": "Watch GT 2 Porsche Design",
+      "price": "1050",
+      "slug": "huawei_watch_gt_2_porsche_design-10554",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/huawei-gt2-porshe1.jpg"
+    },
+    {
+      "id": 20,
+      "brand": "Oppo ",
+      "name": "Watch 2",
+      "price": "720",
+      "slug": "oppo_watch_2-11026",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/oppo-watch-2.jpg"
+    },
+    {
+      "id": 21,
+      "brand": "Samsung ",
+      "name": "Galaxy Watch4 Classic",
+      "slug": "samsung_galaxy_watch4_classic-11046",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch4-classic.jpg"
+    },
+    {
+      "id": 22,
+      "brand": "Samsung ",
+      "name": "Galaxy Watch4",
+      "price": "1100",
+      "slug": "samsung_galaxy_watch4-11045",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch4.jpg"
+    },
+    {
+      "id": 23,
+      "brand": "Samsung ",
+      "name": "Galaxy Watch3",
+      "price": "1540",
+      "slug": "samsung_galaxy_watch3-10315",
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-watch3.jpg"
+    }
+  ]
