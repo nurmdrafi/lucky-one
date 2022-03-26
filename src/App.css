@@ -1,40 +1,86 @@
-.title{
+.title {
   text-align: center;
 }
 .container{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
-.card-container{
+.card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
 }
+
 .modal-container{
   display: flex;
   gap: 20px;
 }
-.close-btn{
-  /* background-color: bisque; */
+.close-btn {
   display: block;
   position: fixed;
   right: 20px;
   top: 15px;
   cursor: pointer;
 }
-.modal-container .image-container{
-  max-width: 300px;
-  max-height: 300px;
+.modal-container .image-container {
+  width: 200px;
+  height: 200px;
+  margin: auto;
 }
-.modal-container .image-container img{
+.modal-container .image-container img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
-.modal-container .details{
+.modal-container .details {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.modal-container h2, .modal-container h3, .modal-container h4{
+.modal-container h2,
+.modal-container h3,
+.modal-container h4 {
   margin-top: 0;
+}
+
+/*===============
+  MEDIA QUERIES 
+ ==============*/
+
+/* Small Device */
+@media (min-width: 450px) {
+  .card-container {
+    order: 2;
+    grid-template-columns: 1fr;
+  }
+  .cart {
+    order: 1;
+    position: static;
+  }
+  .modal-container {
+    flex-direction: column;
+  }
+}
+
+/* Medium Device */
+@media (min-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .modal-container {
+    flex-direction: row;
+  }
+}
+
+/* Large Device */
+@media (min-width: 992px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+    order: 1;
+  }
+
+  .cart {
+    order: 2;
+    position: sticky;
+  }
 }

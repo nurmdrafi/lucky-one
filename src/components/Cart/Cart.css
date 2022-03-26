@@ -3,7 +3,7 @@
   border-radius: 30px;
   height: fit-content;
   box-sizing: border-box;
-  position: sticky;
+  /* position: sticky; */
   top: 80px;
 }
 .button-container {
@@ -19,3 +19,4 @@
   font-weight: bold;
   cursor: pointer;
 }
+
