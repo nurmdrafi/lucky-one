@@ -2,13 +2,13 @@
   height: 510px;
   width: 320px;
   padding: 15px;
-  justify-self: center;
+  
 }
 
-/* Must need a container/wrapper for image */
 .card .image-container {
   width: 280px;
   height: 280px;
+  margin: auto;
 }
 
 .card img {

@@ -77,7 +77,7 @@ function App() {
           data={cart}
           chooseAgain={chooseAgain}
           chooseSingleItem={chooseSingleItem}
-        ></Cart>
+        ></Cart>   
       </div>
       {/* <button onClick={openModal}>Open Modal</button> */}
       <Modal

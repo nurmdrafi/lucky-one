@@ -3,8 +3,9 @@
   border-radius: 30px;
   height: fit-content;
   box-sizing: border-box;
-  /* position: sticky; */
   top: 80px;
+  width: 320px;
+  margin: 0 auto;
 }
 .button-container {
   display: flex;
