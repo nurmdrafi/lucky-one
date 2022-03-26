@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Product from "./components/Product/Product";
 import Cart from "./components/Cart/Cart";
 import Modal from "react-modal";
+import Article from "./components/Article/Article";
 
 const customStyles = {
   content: {
@@ -23,6 +24,13 @@ function App() {
   const [cart, setCart] = useState([]);
   const [singleItem, setSingleItem] = useState([]);
   const [modalIsOpen, setIsOpen] = useState(false);
+  const [articles, setArticles] = useState([]);
+  useEffect(() =>{
+    fetch("articles.json")
+    .then(res =>res.json())
+    .then(data =>setArticles(data))
+  }, [])
+
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
@@ -99,6 +107,9 @@ function App() {
           </div>
         </div>
       </Modal>
+      {
+        articles.map(article => <Article key={article.id} data={article}></Article>)
+      }
     </div>
   );
 }
