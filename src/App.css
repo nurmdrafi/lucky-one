@@ -9,3 +9,32 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.modal-container{
+  display: flex;
+  gap: 20px;
+}
+.close-btn{
+  /* background-color: bisque; */
+  display: block;
+  position: fixed;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
+}
+.modal-container .image-container{
+  max-width: 300px;
+  max-height: 300px;
+}
+.modal-container .image-container img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.modal-container .details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.modal-container h2, .modal-container h3, .modal-container h4{
+  margin-top: 0;
+}

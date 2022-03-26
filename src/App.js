@@ -85,12 +85,19 @@ function App() {
         onRequestClose={closeModal}
         style={customStyles}
         contentLabel="Example Modal"
+        
       >
-        <button onClick={closeModal}>close</button>
-
-        <img src={singleItem.image} alt="" />
-        <h2>{singleItem.brand}</h2>
-        <p>{singleItem.price}</p>
+        <button className="close-btn" onClick={closeModal}>X</button>
+        <div className="modal-container">
+          <div className="image-container">
+            <img src={singleItem.image} alt="" />
+          </div>
+          <div className="details">
+            <h2>Name: {singleItem.name}</h2>
+            <h3>Brand: {singleItem.brand}</h3>
+            <h3>Price: ${singleItem.price}</h3>
+          </div>
+        </div>
       </Modal>
     </div>
   );
